@@ -82,20 +82,6 @@ async function handleSubscriptionUpdated(subscription) {
     };
     console.log(data)
     await updateCognitoUser(data)
-
-    /*
-    old
-    createdAt: "2022-08-04T07:00:31.087Z"
-    email: "nic@nicolashoferer.com"
-    id: "11d75f61-a7af-477d-ad6a-ae97a8fd0890"
-    startOfCurrentSubscription: "2022-08-04T07:00:30.025Z"
-    stripeCustomerId: "cus_MBKiqTBCXOYr7f"
-    subscriptionDurationInDays: 30
-    subscriptionId: "sub_1LSy2kCInfj461ohn7yB9jSm"
-    subscriptionStatus: "trialing"
-    username: "Nicolas Hoferer"
-    __typename: "CognitoUser"
-     */
 }
 
 const endpoint = new awsx.apigateway.API("stripe-endpoint", {
@@ -237,8 +223,7 @@ const endpoint = new awsx.apigateway.API("stripe-endpoint", {
                             // If you are using an endpoint defined with the API or dashboard, look in your webhook settings
                             // at https://dashboard.stripe.com/webhooks
 
-                            //const endpointSecret = 'whsec_93omOnEjaH7u3De9C6jHdTZPCPOzIL0w'//'whsec_e34bf59a4164feb2fb56242f46f7763fc1797763326508e7a378dcfa76407459' //TESTING ENDPOINT;
-                            const endpointSecret = 'whsec_INnCvEO5mMpCsCQjiiz06KEkekr6bbl6'; // test
+                            const endpointSecret = '<YOUR_API_KEY>'; // test
                             // Only verify the event if you have an endpoint secret defined.
                             // Otherwise, use the basic event deserialized with JSON.parse
                             console.log("endpointSecret")
