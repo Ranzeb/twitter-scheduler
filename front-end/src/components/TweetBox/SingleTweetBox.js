@@ -252,7 +252,7 @@ export function SingleTweetBox(props) {
                             {props.data.isShowingGifPicker &&
                                 <ReactGiphySearchbox
                                     className="gif-picker"
-                                    apiKey='e1eMjdqNZtxay0s7lNUFnsPhkwNOJlNT'
+                                    apiKey='<YOUR_API_KEY>'
                                     onSelect={passThroughGifSelect}
                                 />}
                         </Box>
