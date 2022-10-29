@@ -1,0 +1,117 @@
+type CognitoUser {
+    id: ID!
+    username: String!
+    email: String
+    createdAt: String
+    subscriptionId: String
+    startOfCurrentSubscription: String
+    subscriptionDurationInDays: Int
+    endOfCurrentSubscription: String
+    subscriptionStatus: String
+    stripeCustomerId: String
+    familyName: String
+    givenName: String
+}
+
+type TwitterUser {
+    cognitoUserId: ID!
+    accessToken: String!
+    accessSecret: String!
+    screenName: String!
+    twitterUserId: String!
+    tokenCreationDateTime: String!
+    schedule: [[String]]
+}
+
+type Poll {
+    duration_minutes: Int
+    options: [String]
+}
+
+type SingleTweet {
+    tweetText: String!
+    mediaS3Urls: [String]
+    poll: Poll
+}
+
+input PollInput {
+    duration_minutes: Int!
+    options: [String]
+}
+
+input TweetsInput {
+    tweetText: String!
+    mediaS3Urls: [String]
+    poll: PollInput
+}
+
+type TwitterTweet {
+    tweetId: ID!
+    tweets: [SingleTweet]!
+    cognitoUserId: ID!
+    scheduledDateTime: String
+    creationDateTime: String!
+    postDateTime: String
+    twitterUserId: String!
+    isPosted: Boolean!
+    usesThreadFinisher: Boolean!
+}
+
+type DailyStatistics {
+    tweetCounter: String
+    threadCounter: String
+    replyCounter: String
+    likesCounter: String
+    quoteCounter: String
+    retweetCounter: String
+}
+
+type Query {
+    getCognitoUser: CognitoUser
+    getTwitterUser(cognitoUserId: ID!): TwitterUser
+    getTwitterTweet: TwitterTweet
+    getScheduledTweetsOfUser(cognitoUserId: ID!, toDateTime: String!, fromDateTime: String!): [TwitterTweet]
+    getTwitterUserDailyStatistics(usedDateTime: String!, twitterUserId: String!, accessToken: String!, accessSecret: String!): DailyStatistics
+}
+
+type Mutation {
+    createTwitterUser(
+        cognitoUserId: ID!,
+        accessToken: String!,
+        accessSecret: String!,
+        screenName: String!,
+        twitterUserId: String!,
+        tokenCreationDateTime: String!): TwitterUser!
+
+    createTwitterTweet(
+        tweets: String!,
+        cognitoUserId: ID!,
+        scheduledDateTime: String,
+        creationDateTime: String!,
+        postDateTime: String,
+        twitterUserId: String!,
+        isPosted: Boolean!,
+        usesThreadFinisher:  Boolean!): TwitterTweet!
+
+    deleteTwitterTweet(tweetId: ID!): TwitterTweet
+
+    updateTwitterTweet(
+        tweetId: ID!,
+        tweets: [TweetsInput]!,
+        scheduledDateTime: String!,
+        updateDateTime: String!,
+        usesThreadFinisher: Boolean!): TwitterTweet
+
+    updateTwitterUserSchedule(
+        cognitoUserId: ID!,
+        schedule: [[String]]!
+    ): TwitterUser
+
+
+    updateCognitoUserBasedOnStripeCustomerId(
+        id: ID!,
+        subscriptionId: String,
+        startOfCurrentSubscription: String,
+        subscriptionDurationInDays: Int,
+        subscriptionStatus: String) : CognitoUser
+}

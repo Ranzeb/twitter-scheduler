@@ -1,0 +1,138 @@
+.PreviewURL {
+  display: flex;
+  font-size: 15px;
+  position: relative;
+  border: 1px solid rgb(196, 207, 214);
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  outline-style: none;
+  animation: fadeIn 0.35s ease-in forwards;
+  margin: 0 0 10px 0;
+}
+
+.PreviewURL__Img {
+  width: 25%;
+  padding-top: 25%;
+  position: relative;
+  overflow: hidden;
+  min-width: 84px;
+}
+
+.PreviewURL__Img img {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+
+.PreviewURL__Content {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.PreviewURL__Desc {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.PreviewURL__Footer img {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.Preview__CloseBtn {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.77);
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.Preview__CloseBtn::after,
+.Preview__CloseBtn::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1.4px;
+  height: 60%;
+  background-color: white;
+  z-index: 1;
+}
+
+.Preview__CloseBtn::after {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.Preview__CloseBtn::before {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.PreviewMedia_Grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 10px 0;
+}
+
+.PreviewMedia {
+  width: 100%;
+  font-size: 15px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  outline-style: none;
+  animation: fadeIn 0.35s ease-in forwards;
+  padding-top: 56.25%;
+  min-width: 240px;
+}
+
+.PreviewMedia__Wrapper {
+  flex: 1;
+  min-width: 240px;
+}
+
+.PreviewMedia__Wrapper:nth-child(even) {
+  margin-left: 10px;
+}
+
+.PreviewMedia__Wrapper:nth-child(n + 2) {
+  max-width: 245px;
+}
+
+.PreviewMedia__Wrapper:nth-child(n + 3) {
+  margin-top: 10px;
+}
+
+.PreviewMedia img {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.PreviewMedia video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

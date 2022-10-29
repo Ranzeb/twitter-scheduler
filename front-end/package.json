@@ -1,0 +1,85 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.6.8",
+    "@aws-amplify/ui-react": "^3.0.0",
+    "@date-io/date-fns": "^2.14.0",
+    "@date-io/dayjs": "^2.14.0",
+    "@date-io/luxon": "^2.14.0",
+    "@date-io/moment": "^2.14.0",
+    "@emoji-mart/data": "^1.0.3",
+    "@emotion/is-prop-valid": "^1.2.0",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@emotion/weak-memoize": "^0.3.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/joy": "^5.0.0-alpha.39",
+    "@mui/lab": "^5.0.0-alpha.89",
+    "@mui/material": "^5.8.7",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "@mui/x-date-pickers": "^5.0.0-alpha.7",
+    "@reduxjs/toolkit": "^1.8.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "aws-amplify": "^4.3.26",
+    "aws-appsync": "^4.1.6",
+    "axios": "^0.27.2",
+    "axios-oauth-1.0a": "^0.3.5",
+    "cdbreact": "^1.5.2",
+    "dayjs": "^1.11.3",
+    "draft-js": "^0.11.7",
+    "emoji-mart": "^5.1.0",
+    "emoji-picker-react": "^3.5.1",
+    "graphql": "^15.8.0",
+    "lodash.clonedeep": "^4.5.0",
+    "luxon": "^2.4.0",
+    "react": "^18.2.0",
+    "react-admin": "^4.2.0",
+    "react-bootstrap": "^1.6.5",
+    "react-dom": "^18.2.0",
+    "react-giphy-searchbox": "^1.5.4",
+    "react-giphy-select": "^1.0.3",
+    "react-native": "^0.69.3",
+    "react-native-web": "^0.18.7",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-sidebar": "^3.0.2",
+    "react-sidebar-width": "^2.3.7",
+    "redux": "^4.2.0",
+    "runes": "^0.4.3",
+    "styled-components": "^5.3.5",
+    "usetheform": "^3.4.1",
+    "uuid": "^8.3.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

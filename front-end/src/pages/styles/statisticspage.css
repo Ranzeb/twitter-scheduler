@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 1200px){
+    #main{
+        margin-top: 30px;
+    }
+}
+
+.common-box{
+    font-weight: 600;
+    color: #121212;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.common-box.header{
+    font-size: 12px;
+}
+
+.common-box.footer{
+    font-size: 10px;
+    color: #495057;
+}

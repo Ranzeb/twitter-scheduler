@@ -1,0 +1,484 @@
+I0625 19:04:10.807360   88757 backend.go:420] found username for access token
+I0625 19:04:13.305866   88757 backend.go:420] found username for access token
+I0625 19:04:13.804029   88757 backend.go:420] found username for access token
+I0625 19:04:13.803150   88757 backend.go:950] Stack dev being updated to version 8
+I0625 19:04:14.957616   88757 update.go:192] *** Starting Update(preview=true) ***
+I0625 19:04:14.959066   88757 plugins.go:77] gatherPluginsFromProgram(): gathering plugins from language host
+I0625 19:04:14.960650   88757 plugins.go:1063] GetPluginPath(language, nodejs, <nil>): found on $PATH /usr/local/bin/pulumi-language-nodejs
+I0625 19:04:14.961927   88757 plugin.go:184] Launching plugin 'nodejs' from '/usr/local/bin/pulumi-language-nodejs' with args: -root=/Users/nho/WebstormProjects/social_media_twitter/back-end,127.0.0.1:65357
+I0625 19:04:15.051914   88757 langruntime_plugin.go:207] langhost[nodejs].GetPluginInfo() executing
+I0625 19:04:15.055315   88757 langruntime_plugin.go:115] langhost[nodejs].GetRequiredPlugins(proj=social_media_twitter,pwd=/Users/nho/WebstormProjects/social_media_twitter/back-end,program=.) executing
+I0625 19:04:15.663313   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:15.663207   88787 main.go:242] one or more errors while discovering plugins: 1 error occurred:
+<{%reset%}>)
+I0625 19:04:15.663428   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>	* unmarshaling package.json node_modules/resolve/test/resolver/malformed_package_json/package.json: unexpected end of JSON input
+<{%reset%}>)
+I0625 19:04:15.664036   88757 langruntime_plugin.go:157] langhost[nodejs].GetRequiredPlugins(proj=social_media_twitter,pwd=/Users/nho/WebstormProjects/social_media_twitter/back-end,program=.) success: #versions=2
+I0625 19:04:15.664072   88757 plugins.go:89] gatherPluginsFromProgram(): plugin nodejs <nil> () is required by language host
+I0625 19:04:15.664104   88757 plugins.go:89] gatherPluginsFromProgram(): plugin aws 5.9.1 () is required by language host
+I0625 19:04:15.664121   88757 plugins.go:89] gatherPluginsFromProgram(): plugin docker 3.2.0 () is required by language host
+I0625 19:04:15.664138   88757 plugins.go:101] gatherPluginsFromSnapshot(): gathering plugins from snapshot
+I0625 19:04:15.664157   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev", not a provider
+I0625 19:04:15.664179   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API::twitter-get-auth-link", not a provider
+I0625 19:04:15.664198   88757 plugins.go:122] gatherPluginsFromSnapshot(): plugin aws 5.9.1 is required by first-class provider "urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1"
+I0625 19:04:15.664225   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/policy:Policy::base-policy", not a provider
+I0625 19:04:15.664241   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:appsync/graphQLApi:GraphQLApi::appsync", not a provider
+I0625 19:04:15.664258   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:dynamodb/table:Table::users", not a provider
+I0625 19:04:15.664274   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/role:Role::twitter-get-auth-link149a38f5", not a provider
+I0625 19:04:15.664289   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/role:Role::twitter-get-auth-linka86f64d7", not a provider
+I0625 19:04:15.664310   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::base-role", not a provider
+I0625 19:04:15.664324   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::appsync-role", not a provider
+I0625 19:04:15.664370   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-1b4caae3", not a provider
+I0625 19:04:15.664382   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-a1de8170", not a provider
+I0625 19:04:15.664394   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-4aaabb8e", not a provider
+I0625 19:04:15.664405   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-019020e7", not a provider
+I0625 19:04:15.664416   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-b5aeb6b6", not a provider
+I0625 19:04:15.664427   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-6c156834", not a provider
+I0625 19:04:15.664438   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-e1a3786d", not a provider
+I0625 19:04:15.664455   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-74d12784", not a provider
+I0625 19:04:15.664467   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-7cd09230", not a provider
+I0625 19:04:15.664478   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-019020e7", not a provider
+I0625 19:04:15.664489   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-b5aeb6b6", not a provider
+I0625 19:04:15.664499   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-6c156834", not a provider
+I0625 19:04:15.664510   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-7cd09230", not a provider
+I0625 19:04:15.664521   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-a1de8170", not a provider
+I0625 19:04:15.664533   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-74d12784", not a provider
+I0625 19:04:15.664545   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-e1a3786d", not a provider
+I0625 19:04:15.664555   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-1b4caae3", not a provider
+I0625 19:04:15.664583   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-4aaabb8e", not a provider
+I0625 19:04:15.664595   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/rolePolicyAttachment:RolePolicyAttachment::base-policy-role-attachment", not a provider
+I0625 19:04:15.664610   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/function:Function::twitter-get-auth-linka86f64d7", not a provider
+I0625 19:04:15.664622   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:lambda/function:Function::get-cognito-user-fn", not a provider
+I0625 19:04:15.664633   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:lambda/function:Function::post-confirmation-fn", not a provider
+I0625 19:04:15.664643   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:appsync/dataSource:DataSource::get-cognito-user-ds", not a provider
+I0625 19:04:15.664653   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:cognito/userPool:UserPool::main-users", not a provider
+I0625 19:04:15.664663   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:appsync/resolver:Resolver::get-cognito-user-rs", not a provider
+I0625 19:04:15.664673   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:lambda/permission:Permission::allow-cognito", not a provider
+I0625 19:04:15.664682   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:cognito/userPoolClient:UserPoolClient::main-client", not a provider
+I0625 19:04:15.664692   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:cognito/identityPool:IdentityPool::main-identity-pool", not a provider
+I0625 19:04:15.664702   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::main-authenticated-role", not a provider
+I0625 19:04:15.664715   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:cognito/identityPoolRoleAttachment:IdentityPoolRoleAttachment::main-identity-pool-roles", not a provider
+I0625 19:04:15.664726   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:iam/rolePolicy:RolePolicy::main-authenticated-role-policy", not a provider
+I0625 19:04:15.664736   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/function:Function::twitter-get-auth-link149a38f5", not a provider
+I0625 19:04:15.664747   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/restApi:RestApi::twitter-get-auth-link", not a provider
+I0625 19:04:15.664757   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/deployment:Deployment::twitter-get-auth-link", not a provider
+I0625 19:04:15.664768   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/permission:Permission::twitter-get-auth-link-1718a47a", not a provider
+I0625 19:04:15.664782   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/permission:Permission::twitter-get-auth-link-bdad3f39", not a provider
+I0625 19:04:15.664808   88757 plugins.go:110] gatherPluginsFromSnapshot(): skipping "urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/stage:Stage::twitter-get-auth-link", not a provider
+I0625 19:04:15.664825   88757 plugins.go:138] ensurePluginsAreInstalled(): beginning
+I0625 19:04:15.665314   88757 plugins.go:1104] GetPluginPath(resource, docker, 3.2.0): enabling new plugin behavior
+I0625 19:04:15.665343   88757 plugins.go:1192] SelectCompatiblePlugin(..., docker): beginning
+I0625 19:04:15.665359   88757 plugins.go:1221] SelectCompatiblePlugin(..., docker): best plugin docker-3.2.0: semver match
+I0625 19:04:15.665369   88757 plugins.go:1234] SelectCompatiblePlugin(..., docker): selecting plugin 'docker-3.2.0': best match 
+I0625 19:04:15.665391   88757 plugins.go:1151] GetPluginPath(resource, docker, 3.2.0): found in cache at /Users/nho/.pulumi/plugins/resource-docker-v3.2.0/pulumi-resource-docker
+I0625 19:04:15.665402   88757 plugins.go:143] ensurePluginsAreInstalled(): plugin docker 3.2.0 already installed
+I0625 19:04:15.665455   88757 plugins.go:1063] GetPluginPath(language, nodejs, <nil>): found on $PATH /usr/local/bin/pulumi-language-nodejs
+I0625 19:04:15.665473   88757 plugins.go:143] ensurePluginsAreInstalled(): plugin nodejs <nil> already installed
+I0625 19:04:15.665729   88757 plugins.go:1104] GetPluginPath(resource, aws, 5.9.1): enabling new plugin behavior
+I0625 19:04:15.665747   88757 plugins.go:1192] SelectCompatiblePlugin(..., aws): beginning
+I0625 19:04:15.665760   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-4.38.1: semver mismatch
+I0625 19:04:15.665771   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-5.2.0: semver mismatch
+I0625 19:04:15.665780   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-5.8.0: semver mismatch
+I0625 19:04:15.665790   88757 plugins.go:1221] SelectCompatiblePlugin(..., aws): best plugin aws-5.9.1: semver match
+I0625 19:04:15.665799   88757 plugins.go:1234] SelectCompatiblePlugin(..., aws): selecting plugin 'aws-5.9.1': best match 
+I0625 19:04:15.665814   88757 plugins.go:1151] GetPluginPath(resource, aws, 5.9.1): found in cache at /Users/nho/.pulumi/plugins/resource-aws-v5.9.1/pulumi-resource-aws
+I0625 19:04:15.665824   88757 plugins.go:143] ensurePluginsAreInstalled(): plugin aws 5.9.1 already installed
+I0625 19:04:15.665832   88757 plugins.go:158] ensurePluginsAreInstalled(): completed
+I0625 19:04:15.665849   88757 plugins.go:259] computeDefaultProviderPlugins(): considering nodejs
+I0625 19:04:15.665863   88757 plugins.go:262] computeDefaultProviderPlugins(): skipping nodejs, not a resource provider
+I0625 19:04:15.665872   88757 plugins.go:259] computeDefaultProviderPlugins(): considering docker-3.2.0
+I0625 19:04:15.665892   88757 plugins.go:290] computeDefaultProviderPlugins(): plugin docker-3.2.0 selected for package docker (first seen)
+I0625 19:04:15.665903   88757 plugins.go:259] computeDefaultProviderPlugins(): considering aws-5.9.1
+I0625 19:04:15.665915   88757 plugins.go:290] computeDefaultProviderPlugins(): plugin aws-5.9.1 selected for package aws (first seen)
+I0625 19:04:15.665928   88757 plugins.go:296] computeDefaultProviderPlugins(): summary of default plugins:
+I0625 19:04:15.665937   88757 plugins.go:298]   docker          = 3.2.0
+I0625 19:04:15.665946   88757 plugins.go:298]   aws             = 5.9.1
+I0625 19:04:15.666820   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev): 
+I0625 19:04:15.666848   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API::twitter-get-auth-link): 
+I0625 19:04:15.667199   88757 plugins.go:1104] GetPluginPath(resource, aws, 5.9.1): enabling new plugin behavior
+I0625 19:04:15.667221   88757 plugins.go:1192] SelectCompatiblePlugin(..., aws): beginning
+I0625 19:04:15.667235   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-4.38.1: semver mismatch
+I0625 19:04:15.667268   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-5.2.0: semver mismatch
+I0625 19:04:15.667278   88757 plugins.go:1225] SelectCompatiblePlugin(..., aws): skipping plugin aws-5.8.0: semver mismatch
+I0625 19:04:15.667294   88757 plugins.go:1221] SelectCompatiblePlugin(..., aws): best plugin aws-5.9.1: semver match
+I0625 19:04:15.667303   88757 plugins.go:1234] SelectCompatiblePlugin(..., aws): selecting plugin 'aws-5.9.1': best match 
+I0625 19:04:15.667320   88757 plugins.go:1151] GetPluginPath(resource, aws, 5.9.1): found in cache at /Users/nho/.pulumi/plugins/resource-aws-v5.9.1/pulumi-resource-aws
+I0625 19:04:15.667332   88757 plugin.go:184] Launching plugin 'aws (resource)' from '/Users/nho/.pulumi/plugins/resource-aws-v5.9.1/pulumi-resource-aws' with args: 127.0.0.1:65357
+I0625 19:04:16.164185   88757 provider_plugin.go:1474] Provider[aws, 0xc00057df80].GetPluginInfo() executing
+I0625 19:04:16.166141   88757 provider_plugin.go:494] Provider[aws, 0xc00057df80].Configure() executing (#vars=3)
+I0625 19:04:16.166525   88757 rpc.go:74] Marshaling property for RPC[Provider[aws, 0xc00057df80].Configure().inputs]: profile={ng}
+I0625 19:04:16.166761   88757 rpc.go:74] Marshaling property for RPC[Provider[aws, 0xc00057df80].Configure().inputs]: region={eu-west-1}
+I0625 19:04:16.166776   88757 rpc.go:74] Marshaling property for RPC[Provider[aws, 0xc00057df80].Configure().inputs]: version={5.9.1}
+I0625 19:04:16.166797   88757 registry.go:162] loaded provider urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167037   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/policy:Policy::base-policy): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167057   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:appsync/graphQLApi:GraphQLApi::appsync): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167067   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:dynamodb/table:Table::users): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167080   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/role:Role::twitter-get-auth-link149a38f5): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167089   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/role:Role::twitter-get-auth-linka86f64d7): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167110   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::base-role): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167121   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::appsync-role): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167131   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-1b4caae3): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167147   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-a1de8170): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167163   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-4aaabb8e): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167195   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-019020e7): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167776   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-b5aeb6b6): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167787   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-6c156834): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167797   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-e1a3786d): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167806   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-74d12784): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167815   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-link149a38f5-7cd09230): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167824   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-019020e7): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167832   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-b5aeb6b6): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167847   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-6c156834): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167858   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-7cd09230): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167867   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-a1de8170): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167878   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-74d12784): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167908   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-e1a3786d): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167918   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-1b4caae3): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167927   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:iam/rolePolicyAttachment:RolePolicyAttachment::twitter-get-auth-linka86f64d7-4aaabb8e): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167936   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/rolePolicyAttachment:RolePolicyAttachment::base-policy-role-attachment): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167953   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/function:Function::twitter-get-auth-linka86f64d7): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167962   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:lambda/function:Function::get-cognito-user-fn): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167983   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:lambda/function:Function::post-confirmation-fn): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.167994   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:appsync/dataSource:DataSource::get-cognito-user-ds): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168003   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:cognito/userPool:UserPool::main-users): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168012   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:appsync/resolver:Resolver::get-cognito-user-rs): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168021   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:lambda/permission:Permission::allow-cognito): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168029   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:cognito/userPoolClient:UserPoolClient::main-client): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168038   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:cognito/identityPool:IdentityPool::main-identity-pool): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168046   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/role:Role::main-authenticated-role): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168057   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:cognito/identityPoolRoleAttachment:IdentityPoolRoleAttachment::main-identity-pool-roles): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168081   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:iam/rolePolicy:RolePolicy::main-authenticated-role-policy): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168091   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/function:Function::twitter-get-auth-link149a38f5): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168100   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/restApi:RestApi::twitter-get-auth-link): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168109   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/deployment:Deployment::twitter-get-auth-link): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168117   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/permission:Permission::twitter-get-auth-link-1718a47a): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168126   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:lambda/permission:Permission::twitter-get-auth-link-bdad3f39): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.168135   88757 registry.go:127] provider(urn:pulumi:dev::social_media_twitter::aws:apigateway:x:API$aws:apigateway/stage:Stage::twitter-get-auth-link): urn:pulumi:dev::social_media_twitter::pulumi:providers:aws::default_5_9_1::b5560294-5add-428b-bc1d-2213e63f7914
+I0625 19:04:16.170194   88757 langruntime_plugin.go:168] langhost[nodejs].Run(pwd=/Users/nho/WebstormProjects/social_media_twitter/back-end,program=.,#args=0,proj=social_media_twitter,stack=dev,#config=3,dryrun=true) executing
+I0625 19:04:16.170248   88757 step_generator.go:1123] stepGenerator.GeneratePendingDeletes(): scanning previous snapshot for pending deletes
+I0625 19:04:16.170274   88757 deployment_executor.go:474] deploymentExecutor.retirePendingDeletes(...): no pending deletions
+I0625 19:04:16.170488   88757 deployment_executor.go:255] deploymentExecutor.Execute(...): waiting for incoming events
+I0625 19:04:16.170495   88757 step_executor.go:377] StepExecutor worker(-2): worker coming online
+I0625 19:04:16.170524   88757 step_executor.go:377] StepExecutor worker(-2): worker waiting for incoming chains
+I0625 19:04:16.178055   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178003   88790 schema.go:313] Created Terraform input: region = eu-west-1
+<{%reset%}>)
+I0625 19:04:16.178103   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178029   88790 schema.go:313] Created Terraform input: profile = ng
+<{%reset%}>)
+I0625 19:04:16.178293   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178269   88790 schema.go:455] Created Terraform input: skip_credentials_validation = false (from Pulumi schema)
+<{%reset%}>)
+I0625 19:04:16.178315   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178288   88790 schema.go:455] Created Terraform input: skip_metadata_api_check = true (from Pulumi schema)
+<{%reset%}>)
+I0625 19:04:16.178330   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178303   88790 schema.go:455] Created Terraform input: skip_get_ec2_platforms = true (from Pulumi schema)
+<{%reset%}>)
+I0625 19:04:16.178347   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178311   88790 schema.go:455] Created Terraform input: skip_region_validation = true (from Pulumi schema)
+<{%reset%}>)
+I0625 19:04:16.178508   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178479   88790 schema.go:519] Created Terraform input: s3_use_path_style = false (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178563   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178493   88790 schema.go:519] Created Terraform input: max_retries = 25 (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178576   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178501   88790 schema.go:519] Created Terraform input: sts_region =  (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178591   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178510   88790 schema.go:519] Created Terraform input: secret_key =  (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178603   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178516   88790 schema.go:519] Created Terraform input: token =  (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178630   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178523   88790 schema.go:519] Created Terraform input: access_key =  (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178650   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178531   88790 schema.go:519] Created Terraform input: use_fips_endpoint = false (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178671   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178537   88790 schema.go:519] Created Terraform input: insecure = false (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178693   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178546   88790 schema.go:519] Created Terraform input: skip_requesting_account_id = false (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178713   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178554   88790 schema.go:519] Created Terraform input: use_dualstack_endpoint = false (from Terraform schema)
+<{%reset%}>)
+I0625 19:04:16.178744   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178565   88790 schema.go:323] Terraform input region = "eu-west-1"
+<{%reset%}>)
+I0625 19:04:16.178760   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178571   88790 schema.go:323] Terraform input use_fips_endpoint = false
+<{%reset%}>)
+I0625 19:04:16.178786   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178575   88790 schema.go:323] Terraform input insecure = false
+<{%reset%}>)
+I0625 19:04:16.178816   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178578   88790 schema.go:323] Terraform input use_dualstack_endpoint = false
+<{%reset%}>)
+I0625 19:04:16.178830   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178582   88790 schema.go:323] Terraform input skip_requesting_account_id = false
+<{%reset%}>)
+I0625 19:04:16.178843   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178585   88790 schema.go:323] Terraform input skip_metadata_api_check = true
+<{%reset%}>)
+I0625 19:04:16.178869   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178589   88790 schema.go:323] Terraform input skip_region_validation = true
+<{%reset%}>)
+I0625 19:04:16.178908   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178592   88790 schema.go:323] Terraform input s3_use_path_style = false
+<{%reset%}>)
+I0625 19:04:16.178926   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178603   88790 schema.go:323] Terraform input secret_key = ""
+<{%reset%}>)
+I0625 19:04:16.178944   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178609   88790 schema.go:323] Terraform input access_key = ""
+<{%reset%}>)
+I0625 19:04:16.178958   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178613   88790 schema.go:323] Terraform input skip_get_ec2_platforms = true
+<{%reset%}>)
+I0625 19:04:16.178972   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178619   88790 schema.go:323] Terraform input max_retries = 25
+<{%reset%}>)
+I0625 19:04:16.179014   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178623   88790 schema.go:323] Terraform input __defaults = []interface {}{"accessKey", "insecure", "maxRetries", "s3UsePathStyle", "secretKey", "skipCredentialsValidation", "skipGetEc2Platforms", "skipMetadataApiCheck", "skipRegionValidation", "skipRequestingAccountId", "stsRegion", "token", "useDualstackEndpoint", "useFipsEndpoint"}
+<{%reset%}>)
+I0625 19:04:16.179039   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178655   88790 schema.go:323] Terraform input profile = "ng"
+<{%reset%}>)
+I0625 19:04:16.179062   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178661   88790 schema.go:323] Terraform input skip_credentials_validation = false
+<{%reset%}>)
+I0625 19:04:16.179073   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178665   88790 schema.go:323] Terraform input sts_region = ""
+<{%reset%}>)
+I0625 19:04:16.179084   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.178668   88790 schema.go:323] Terraform input token = ""
+<{%reset%}>)
+I0625 19:04:16.183569   88757 eventsink.go:59] Using shared credentials files from configuration: ["/Users/nho/.aws/credentials"]
+I0625 19:04:16.183599   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Using shared credentials files from configuration: ["/Users/nho/.aws/credentials"]<{%reset%}>)
+I0625 19:04:16.184955   88757 eventsink.go:59] Using shared configuration files from configuration: "/Users/nho/.aws/config"
+I0625 19:04:16.184980   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Using shared configuration files from configuration: "/Users/nho/.aws/config"<{%reset%}>)
+I0625 19:04:16.186472   88757 eventsink.go:59] Using profile from configuration: "ng"
+I0625 19:04:16.186496   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Using profile from configuration: "ng"<{%reset%}>)
+I0625 19:04:16.190704   88757 eventsink.go:59] Retrieved credentials from "SharedConfigCredentials: /Users/nho/.aws/credentials"
+I0625 19:04:16.190744   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Retrieved credentials from "SharedConfigCredentials: /Users/nho/.aws/credentials"<{%reset%}>)
+I0625 19:04:16.192054   88757 eventsink.go:59] Trying to get account information via sts:GetCallerIdentity
+I0625 19:04:16.192079   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Trying to get account information via sts:GetCallerIdentity<{%reset%}>)
+I0625 19:04:16.196446   88757 eventsink.go:59] [aws-sdk-go-v2] Request
+I0625 19:04:16.196478   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Request<{%reset%}>)
+I0625 19:04:16.196759   88757 eventsink.go:59] POST / HTTP/1.1
+I0625 19:04:16.196784   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>POST / HTTP/1.1<{%reset%}>)
+I0625 19:04:16.197066   88757 eventsink.go:59] Host: sts.eu-west-1.amazonaws.com
+I0625 19:04:16.197086   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Host: sts.eu-west-1.amazonaws.com<{%reset%}>)
+I0625 19:04:16.197413   88757 eventsink.go:59] User-Agent: aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4
+I0625 19:04:16.197443   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>User-Agent: aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4<{%reset%}>)
+I0625 19:04:16.197656   88757 eventsink.go:59] Content-Length: 43
+I0625 19:04:16.197683   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 43<{%reset%}>)
+I0625 19:04:16.197921   88757 eventsink.go:59] Amz-Sdk-Invocation-Id: e89e7a6f-c3ec-4d4c-a178-765a8b2a3caa
+I0625 19:04:16.197943   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Invocation-Id: e89e7a6f-c3ec-4d4c-a178-765a8b2a3caa<{%reset%}>)
+I0625 19:04:16.198153   88757 eventsink.go:59] Amz-Sdk-Request: attempt=1; max=3
+I0625 19:04:16.198175   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Request: attempt=1; max=3<{%reset%}>)
+I0625 19:04:16.198425   88757 eventsink.go:59] Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=7567fdc7cc8ac0bd3ccd86288d372cd0e2031eb63b19073ff177d4495484f999
+I0625 19:04:16.198731   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=7567fdc7cc8ac0bd3ccd86288d372cd0e2031eb63b19073ff177d4495484f999<{%reset%}>)
+I0625 19:04:16.198974   88757 eventsink.go:59] Content-Type: application/x-www-form-urlencoded
+I0625 19:04:16.198996   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: application/x-www-form-urlencoded<{%reset%}>)
+I0625 19:04:16.199173   88757 eventsink.go:59] X-Amz-Date: 20220625T170416Z
+I0625 19:04:16.199196   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amz-Date: 20220625T170416Z<{%reset%}>)
+I0625 19:04:16.199414   88757 eventsink.go:59] Accept-Encoding: gzip
+I0625 19:04:16.199435   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Accept-Encoding: gzip<{%reset%}>)
+I0625 19:04:16.199627   88757 eventsink.go:59] 
+I0625 19:04:16.199653   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.199857   88757 eventsink.go:59] Action=GetCallerIdentity&Version=2011-06-15
+I0625 19:04:16.199879   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Action=GetCallerIdentity&Version=2011-06-15<{%reset%}>)
+I0625 19:04:16.238013   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:16.237929   88787 main.go:540] Language host launching process:  /Users/nho/.nvm/versions/node/v12.22.10/bin/node /Users/nho/WebstormProjects/social_media_twitter/back-end/node_modules/@pulumi/pulumi/cmd/run/index.js --monitor 127.0.0.1:65369 --engine 127.0.0.1:65357 --sync /var/folders/f2/07wc_f7j4498smjs8f1wwf61r80zjj/T/pulumi-node-pipes400985355 --project social_media_twitter --stack dev --pwd /Users/nho/WebstormProjects/social_media_twitter/back-end --dry-run --query-mode false --parallel 2147483647 .
+<{%reset%}>)
+I0625 19:04:16.458437   88757 eventsink.go:59] [aws-sdk-go-v2] Response
+I0625 19:04:16.458469   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Response<{%reset%}>)
+I0625 19:04:16.458729   88757 eventsink.go:59] HTTP/1.1 200 OK
+I0625 19:04:16.458749   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>HTTP/1.1 200 OK<{%reset%}>)
+I0625 19:04:16.458974   88757 eventsink.go:59] Content-Length: 387
+I0625 19:04:16.458993   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 387<{%reset%}>)
+I0625 19:04:16.459251   88757 eventsink.go:59] Content-Type: text/xml
+I0625 19:04:16.459310   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: text/xml<{%reset%}>)
+I0625 19:04:16.459533   88757 eventsink.go:59] Date: Sat, 25 Jun 2022 17:04:16 GMT
+I0625 19:04:16.459553   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Date: Sat, 25 Jun 2022 17:04:16 GMT<{%reset%}>)
+I0625 19:04:16.459771   88757 eventsink.go:59] X-Amzn-Requestid: 6d655ff3-65ab-433c-a399-ac6dc4fd359d
+I0625 19:04:16.459796   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amzn-Requestid: 6d655ff3-65ab-433c-a399-ac6dc4fd359d<{%reset%}>)
+I0625 19:04:16.460043   88757 eventsink.go:59] 
+I0625 19:04:16.460068   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.460359   88757 eventsink.go:59] <GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/">
+I0625 19:04:16.460388   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/"><{%reset%}>)
+I0625 19:04:16.460672   88757 eventsink.go:59]   <GetCallerIdentityResult>
+I0625 19:04:16.460695   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.460965   88757 eventsink.go:59]     <Arn>arn:aws:iam::612461934208:root</Arn>
+I0625 19:04:16.460990   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Arn>arn:aws:iam::612461934208:root</Arn><{%reset%}>)
+I0625 19:04:16.461259   88757 eventsink.go:59]     <UserId>612461934208</UserId>
+I0625 19:04:16.461284   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <UserId>612461934208</UserId><{%reset%}>)
+I0625 19:04:16.461524   88757 eventsink.go:59]     <Account>612461934208</Account>
+I0625 19:04:16.461571   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Account>612461934208</Account><{%reset%}>)
+I0625 19:04:16.461848   88757 eventsink.go:59]   </GetCallerIdentityResult>
+I0625 19:04:16.461870   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.462086   88757 eventsink.go:59]   <ResponseMetadata>
+I0625 19:04:16.462112   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <ResponseMetadata><{%reset%}>)
+I0625 19:04:16.462358   88757 eventsink.go:59]     <RequestId>6d655ff3-65ab-433c-a399-ac6dc4fd359d</RequestId>
+I0625 19:04:16.462421   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <RequestId>6d655ff3-65ab-433c-a399-ac6dc4fd359d</RequestId><{%reset%}>)
+I0625 19:04:16.462637   88757 eventsink.go:59]   </ResponseMetadata>
+I0625 19:04:16.462659   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </ResponseMetadata><{%reset%}>)
+I0625 19:04:16.462875   88757 eventsink.go:59] </GetCallerIdentityResponse>
+I0625 19:04:16.462897   88757 eventsink.go:62] eventSink::Debug(<{%reset%}></GetCallerIdentityResponse><{%reset%}>)
+I0625 19:04:16.617540   88757 eventsink.go:59] Using profile from configuration: "ng"
+I0625 19:04:16.617578   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Using profile from configuration: "ng"<{%reset%}>)
+I0625 19:04:16.618180   88757 eventsink.go:59] Retrieved credentials from "SharedConfigCredentials: /Users/nho/.aws/credentials"
+I0625 19:04:16.618210   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Retrieved credentials from "SharedConfigCredentials: /Users/nho/.aws/credentials"<{%reset%}>)
+I0625 19:04:16.618764   88757 eventsink.go:59] Trying to get account information via sts:GetCallerIdentity
+I0625 19:04:16.618787   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Trying to get account information via sts:GetCallerIdentity<{%reset%}>)
+I0625 19:04:16.619535   88757 eventsink.go:59] [aws-sdk-go-v2] Request
+I0625 19:04:16.619564   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Request<{%reset%}>)
+I0625 19:04:16.619798   88757 eventsink.go:59] POST / HTTP/1.1
+I0625 19:04:16.619823   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>POST / HTTP/1.1<{%reset%}>)
+I0625 19:04:16.620119   88757 eventsink.go:59] Host: sts.eu-west-1.amazonaws.com
+I0625 19:04:16.620142   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Host: sts.eu-west-1.amazonaws.com<{%reset%}>)
+I0625 19:04:16.620406   88757 eventsink.go:59] User-Agent: APN/1.0 Pulumi/1.0 Pulumi/1.0 Pulumi-Aws/0.11+compatible (+https://www.pulumi.com) aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4
+I0625 19:04:16.620446   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>User-Agent: APN/1.0 Pulumi/1.0 Pulumi/1.0 Pulumi-Aws/0.11+compatible (+https://www.pulumi.com) aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4<{%reset%}>)
+I0625 19:04:16.620650   88757 eventsink.go:59] Content-Length: 43
+I0625 19:04:16.620686   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 43<{%reset%}>)
+I0625 19:04:16.621001   88757 eventsink.go:59] Amz-Sdk-Invocation-Id: f6d0dead-8c46-4439-8026-c639e8f90e8b
+I0625 19:04:16.621028   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Invocation-Id: f6d0dead-8c46-4439-8026-c639e8f90e8b<{%reset%}>)
+I0625 19:04:16.622632   88757 eventsink.go:59] Amz-Sdk-Request: attempt=1; max=25
+I0625 19:04:16.622655   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Request: attempt=1; max=25<{%reset%}>)
+I0625 19:04:16.622844   88757 eventsink.go:59] Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=68b0542e802e93aab92bb39eadd7f0e8d895b7ce22e5634d6b1a7af0c8609c3d
+I0625 19:04:16.622922   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=68b0542e802e93aab92bb39eadd7f0e8d895b7ce22e5634d6b1a7af0c8609c3d<{%reset%}>)
+I0625 19:04:16.623136   88757 eventsink.go:59] Content-Type: application/x-www-form-urlencoded
+I0625 19:04:16.623179   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: application/x-www-form-urlencoded<{%reset%}>)
+I0625 19:04:16.623384   88757 eventsink.go:59] X-Amz-Date: 20220625T170416Z
+I0625 19:04:16.623409   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amz-Date: 20220625T170416Z<{%reset%}>)
+I0625 19:04:16.623609   88757 eventsink.go:59] Accept-Encoding: gzip
+I0625 19:04:16.623629   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Accept-Encoding: gzip<{%reset%}>)
+I0625 19:04:16.623796   88757 eventsink.go:59] 
+I0625 19:04:16.623813   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.623992   88757 eventsink.go:59] Action=GetCallerIdentity&Version=2011-06-15
+I0625 19:04:16.624014   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Action=GetCallerIdentity&Version=2011-06-15<{%reset%}>)
+I0625 19:04:16.872373   88757 eventsink.go:59] [aws-sdk-go-v2] Response
+I0625 19:04:16.872429   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Response<{%reset%}>)
+I0625 19:04:16.872768   88757 eventsink.go:59] HTTP/1.1 200 OK
+I0625 19:04:16.872802   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>HTTP/1.1 200 OK<{%reset%}>)
+I0625 19:04:16.873048   88757 eventsink.go:59] Content-Length: 387
+I0625 19:04:16.873068   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 387<{%reset%}>)
+I0625 19:04:16.873313   88757 eventsink.go:59] Content-Type: text/xml
+I0625 19:04:16.873340   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: text/xml<{%reset%}>)
+I0625 19:04:16.873547   88757 eventsink.go:59] Date: Sat, 25 Jun 2022 17:04:16 GMT
+I0625 19:04:16.873572   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Date: Sat, 25 Jun 2022 17:04:16 GMT<{%reset%}>)
+I0625 19:04:16.873785   88757 eventsink.go:59] X-Amzn-Requestid: 2e061f2e-5e92-4031-8c23-89d93b19cdaf
+I0625 19:04:16.873810   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amzn-Requestid: 2e061f2e-5e92-4031-8c23-89d93b19cdaf<{%reset%}>)
+I0625 19:04:16.874036   88757 eventsink.go:59] 
+I0625 19:04:16.874061   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.874287   88757 eventsink.go:59] <GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/">
+I0625 19:04:16.874312   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/"><{%reset%}>)
+I0625 19:04:16.874554   88757 eventsink.go:59]   <GetCallerIdentityResult>
+I0625 19:04:16.874580   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.874778   88757 eventsink.go:59]     <Arn>arn:aws:iam::612461934208:root</Arn>
+I0625 19:04:16.874803   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Arn>arn:aws:iam::612461934208:root</Arn><{%reset%}>)
+I0625 19:04:16.875033   88757 eventsink.go:59]     <UserId>612461934208</UserId>
+I0625 19:04:16.875058   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <UserId>612461934208</UserId><{%reset%}>)
+I0625 19:04:16.875271   88757 eventsink.go:59]     <Account>612461934208</Account>
+I0625 19:04:16.875291   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Account>612461934208</Account><{%reset%}>)
+I0625 19:04:16.875486   88757 eventsink.go:59]   </GetCallerIdentityResult>
+I0625 19:04:16.875511   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.875727   88757 eventsink.go:59]   <ResponseMetadata>
+I0625 19:04:16.875770   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <ResponseMetadata><{%reset%}>)
+I0625 19:04:16.876009   88757 eventsink.go:59]     <RequestId>2e061f2e-5e92-4031-8c23-89d93b19cdaf</RequestId>
+I0625 19:04:16.876033   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <RequestId>2e061f2e-5e92-4031-8c23-89d93b19cdaf</RequestId><{%reset%}>)
+I0625 19:04:16.876281   88757 eventsink.go:59]   </ResponseMetadata>
+I0625 19:04:16.876306   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </ResponseMetadata><{%reset%}>)
+I0625 19:04:16.876545   88757 eventsink.go:59] </GetCallerIdentityResponse>
+I0625 19:04:16.876586   88757 eventsink.go:62] eventSink::Debug(<{%reset%}></GetCallerIdentityResponse><{%reset%}>)
+I0625 19:04:16.879603   88757 eventsink.go:59] Trying to get account information via sts:GetCallerIdentity
+I0625 19:04:16.879631   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Trying to get account information via sts:GetCallerIdentity<{%reset%}>)
+I0625 19:04:16.880297   88757 eventsink.go:59] [aws-sdk-go-v2] Request
+I0625 19:04:16.880333   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Request<{%reset%}>)
+I0625 19:04:16.880610   88757 eventsink.go:59] POST / HTTP/1.1
+I0625 19:04:16.880646   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>POST / HTTP/1.1<{%reset%}>)
+I0625 19:04:16.880874   88757 eventsink.go:59] Host: sts.eu-west-1.amazonaws.com
+I0625 19:04:16.880900   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Host: sts.eu-west-1.amazonaws.com<{%reset%}>)
+I0625 19:04:16.881189   88757 eventsink.go:59] User-Agent: APN/1.0 Pulumi/1.0 Pulumi/1.0 Pulumi-Aws/0.11+compatible (+https://www.pulumi.com) aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4
+I0625 19:04:16.881222   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>User-Agent: APN/1.0 Pulumi/1.0 Pulumi/1.0 Pulumi-Aws/0.11+compatible (+https://www.pulumi.com) aws-sdk-go-v2/1.16.5 os/macos lang/go/1.18.3 md/GOOS/darwin md/GOARCH/amd64 api/sts/1.16.4<{%reset%}>)
+I0625 19:04:16.881437   88757 eventsink.go:59] Content-Length: 43
+I0625 19:04:16.881462   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 43<{%reset%}>)
+I0625 19:04:16.881709   88757 eventsink.go:59] Amz-Sdk-Invocation-Id: 790bb8e8-31b0-4fe7-bb5f-4f0ee1a1a6d7
+I0625 19:04:16.881733   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Invocation-Id: 790bb8e8-31b0-4fe7-bb5f-4f0ee1a1a6d7<{%reset%}>)
+I0625 19:04:16.881939   88757 eventsink.go:59] Amz-Sdk-Request: attempt=1; max=25
+I0625 19:04:16.881959   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Amz-Sdk-Request: attempt=1; max=25<{%reset%}>)
+I0625 19:04:16.882213   88757 eventsink.go:59] Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=d9fa85e17ce2b46c85e258dfa5e1b80192d1d56c4afb463e6a5a90d508be3888
+I0625 19:04:16.882269   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Authorization: AWS4-HMAC-SHA256 Credential=AKIAY5GMTO2ANDU62L3Y/20220625/eu-west-1/sts/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;content-length;content-type;host;x-amz-date, Signature=d9fa85e17ce2b46c85e258dfa5e1b80192d1d56c4afb463e6a5a90d508be3888<{%reset%}>)
+I0625 19:04:16.882466   88757 eventsink.go:59] Content-Type: application/x-www-form-urlencoded
+I0625 19:04:16.882490   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: application/x-www-form-urlencoded<{%reset%}>)
+I0625 19:04:16.882707   88757 eventsink.go:59] X-Amz-Date: 20220625T170416Z
+I0625 19:04:16.882733   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amz-Date: 20220625T170416Z<{%reset%}>)
+I0625 19:04:16.882947   88757 eventsink.go:59] Accept-Encoding: gzip
+I0625 19:04:16.882971   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Accept-Encoding: gzip<{%reset%}>)
+I0625 19:04:16.883184   88757 eventsink.go:59] 
+I0625 19:04:16.883206   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.883435   88757 eventsink.go:59] Action=GetCallerIdentity&Version=2011-06-15
+I0625 19:04:16.883462   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Action=GetCallerIdentity&Version=2011-06-15<{%reset%}>)
+I0625 19:04:16.933995   88757 eventsink.go:59] [aws-sdk-go-v2] Response
+I0625 19:04:16.934025   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>[aws-sdk-go-v2] Response<{%reset%}>)
+I0625 19:04:16.934331   88757 eventsink.go:59] HTTP/1.1 200 OK
+I0625 19:04:16.934361   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>HTTP/1.1 200 OK<{%reset%}>)
+I0625 19:04:16.934598   88757 eventsink.go:59] Content-Length: 387
+I0625 19:04:16.934623   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Length: 387<{%reset%}>)
+I0625 19:04:16.934834   88757 eventsink.go:59] Content-Type: text/xml
+I0625 19:04:16.934858   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Content-Type: text/xml<{%reset%}>)
+I0625 19:04:16.935096   88757 eventsink.go:59] Date: Sat, 25 Jun 2022 17:04:16 GMT
+I0625 19:04:16.935122   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Date: Sat, 25 Jun 2022 17:04:16 GMT<{%reset%}>)
+I0625 19:04:16.935389   88757 eventsink.go:59] X-Amzn-Requestid: 698f84cc-de4a-424f-a97e-5cfd0ccd0640
+I0625 19:04:16.935414   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>X-Amzn-Requestid: 698f84cc-de4a-424f-a97e-5cfd0ccd0640<{%reset%}>)
+I0625 19:04:16.935637   88757 eventsink.go:59] 
+I0625 19:04:16.935663   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><{%reset%}>)
+I0625 19:04:16.935893   88757 eventsink.go:59] <GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/">
+I0625 19:04:16.935918   88757 eventsink.go:62] eventSink::Debug(<{%reset%}><GetCallerIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/"><{%reset%}>)
+I0625 19:04:16.936131   88757 eventsink.go:59]   <GetCallerIdentityResult>
+I0625 19:04:16.936156   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.936366   88757 eventsink.go:59]     <Arn>arn:aws:iam::612461934208:root</Arn>
+I0625 19:04:16.936391   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Arn>arn:aws:iam::612461934208:root</Arn><{%reset%}>)
+I0625 19:04:16.936602   88757 eventsink.go:59]     <UserId>612461934208</UserId>
+I0625 19:04:16.936626   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <UserId>612461934208</UserId><{%reset%}>)
+I0625 19:04:16.936841   88757 eventsink.go:59]     <Account>612461934208</Account>
+I0625 19:04:16.936879   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <Account>612461934208</Account><{%reset%}>)
+I0625 19:04:16.937203   88757 eventsink.go:59]   </GetCallerIdentityResult>
+I0625 19:04:16.937234   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </GetCallerIdentityResult><{%reset%}>)
+I0625 19:04:16.937472   88757 eventsink.go:59]   <ResponseMetadata>
+I0625 19:04:16.937496   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  <ResponseMetadata><{%reset%}>)
+I0625 19:04:16.937780   88757 eventsink.go:59]     <RequestId>698f84cc-de4a-424f-a97e-5cfd0ccd0640</RequestId>
+I0625 19:04:16.937807   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>    <RequestId>698f84cc-de4a-424f-a97e-5cfd0ccd0640</RequestId><{%reset%}>)
+I0625 19:04:16.938087   88757 eventsink.go:59]   </ResponseMetadata>
+I0625 19:04:16.938123   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>  </ResponseMetadata><{%reset%}>)
+I0625 19:04:16.938418   88757 eventsink.go:59] </GetCallerIdentityResponse>
+I0625 19:04:16.938444   88757 eventsink.go:62] eventSink::Debug(<{%reset%}></GetCallerIdentityResponse><{%reset%}>)
+I0625 19:04:17.505120   88757 eventsink.go:59] Registering resource: t=pulumi:pulumi:Stack, name=social_media_twitter-dev, custom=false, remote=false
+I0625 19:04:17.505162   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource: t=pulumi:pulumi:Stack, name=social_media_twitter-dev, custom=false, remote=false<{%reset%}>)
+I0625 19:04:17.517653   88757 eventsink.go:59] RegisterResource RPC prepared: t=pulumi:pulumi:Stack, name=social_media_twitter-dev
+I0625 19:04:17.517714   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResource RPC prepared: t=pulumi:pulumi:Stack, name=social_media_twitter-dev<{%reset%}>)
+I0625 19:04:17.525148   88757 source_eval.go:1072] ResourceMonitor.RegisterResource received: t=pulumi:pulumi:Stack, name=social_media_twitter-dev, custom=false, #props=0, parent=, protect=false, provider=, deps=[], deleteBeforeReplace=<nil>, ignoreChanges=[], aliases=[], customTimeouts={0 0 0}, providers=map[], replaceOnChanges=[], retainOnDelete=false
+I0625 19:04:17.526217   88757 source_eval.go:167] EvalSourceIterator produced a registration: t=pulumi:pulumi:Stack,name=social_media_twitter-dev,#props=0
+I0625 19:04:17.526241   88757 deployment_executor.go:259] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0625 19:04:17.526533   88757 deployment_executor.go:446] deploymentExecutor.handleSingleEvent(...): received RegisterResourceEvent
+I0625 19:04:17.527225   88757 step_generator.go:641] Planner decided not to update 'urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev' after diff (same) (inputs=map[])
+I0625 19:04:17.527258   88757 step_executor.go:377] StepExecutor worker(-2): worker received chain for execution
+I0625 19:04:17.527269   88757 step_executor.go:377] StepExecutor worker(-2): worker waiting for incoming chains
+I0625 19:04:17.527284   88757 step_executor.go:377] StepExecutor worker(0): launching oneshot worker
+I0625 19:04:17.527834   88757 step_executor.go:377] StepExecutor worker(0): applying step same on urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev (preview true)
+I0625 19:04:17.527869   88757 step_executor.go:377] StepExecutor worker(0): step same on urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev retired
+I0625 19:04:17.527893   88757 source_eval.go:1162] ResourceMonitor.RegisterResource operation finished: t=pulumi:pulumi:Stack, urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev, #outs=0
+I0625 19:04:17.549613   88757 eventsink.go:59] RegisterResource RPC finished: resource:social_media_twitter-dev[pulumi:pulumi:Stack]; err: null, resp: urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev,,,,
+I0625 19:04:17.549658   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResource RPC finished: resource:social_media_twitter-dev[pulumi:pulumi:Stack]; err: null, resp: urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev,,,,<{%reset%}>)
+I0625 19:04:17.558472   88757 eventsink.go:59] Running program '/Users/nho/WebstormProjects/social_media_twitter/back-end' in pwd '/Users/nho/WebstormProjects/social_media_twitter/back-end' w/ args: 
+I0625 19:04:17.558504   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>Running program '/Users/nho/WebstormProjects/social_media_twitter/back-end' in pwd '/Users/nho/WebstormProjects/social_media_twitter/back-end' w/ args: <{%reset%}>)
+I0625 19:04:17.715539   88757 eventsink.go:59] RegisterResourceOutputs RPC prepared: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev
+I0625 19:04:17.715578   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResourceOutputs RPC prepared: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev<{%reset%}>)
+I0625 19:04:17.716087   88757 source_eval.go:1207] ResourceMonitor.RegisterResourceOutputs received: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev, #outs=0
+I0625 19:04:17.716128   88757 source_eval.go:172] EvalSourceIterator produced a completion: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev,#outs=0
+I0625 19:04:17.716144   88757 deployment_executor.go:259] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0625 19:04:17.716158   88757 deployment_executor.go:452] deploymentExecutor.handleSingleEvent(...): received register resource outputs
+I0625 19:04:17.716197   88757 step_executor.go:377] StepExecutor worker(-1): registered resource outputs urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev: old=#7, new=#0
+I0625 19:04:17.716237   88757 source_eval.go:1231] ResourceMonitor.RegisterResourceOutputs operation finished: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev, #outs=0
+I0625 19:04:17.717889   88757 eventsink.go:86] eventSink::Error(<{%reset%}>Running program '/Users/nho/WebstormProjects/social_media_twitter/back-end' failed with an unhandled exception:
+SyntaxError: Unexpected token '.'
+    at Loader.moduleStrategy (internal/modules/esm/translators.js:140:18)<{%reset%}>)
+I0625 19:04:17.720150   88757 eventsink.go:59] RegisterResourceOutputs RPC finished: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev; err: null, resp: 
+I0625 19:04:17.720184   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResourceOutputs RPC finished: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev; err: null, resp: <{%reset%}>)
+I0625 19:04:17.721219   88757 eventsink.go:59] RegisterResourceOutputs RPC finished: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev; err: null, resp: 
+I0625 19:04:17.721248   88757 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResourceOutputs RPC finished: urn=urn:pulumi:dev::social_media_twitter::pulumi:pulumi:Stack::social_media_twitter-dev; err: null, resp: <{%reset%}>)
+I0625 19:04:17.744925   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:17.744848   88787 ignore.go:44] Explicitly ignoring and discarding error: sync /dev/stdout: bad file descriptor
+<{%reset%}>)
+I0625 19:04:17.744972   88757 eventsink.go:78] eventSink::Infoerr(<{%reset%}>I0625 19:04:17.744885   88787 ignore.go:44] Explicitly ignoring and discarding error: sync /dev/stderr: bad file descriptor
+<{%reset%}>)
+I0625 19:04:17.745151   88757 langruntime_plugin.go:200] langhost[nodejs].RunPlan(pwd=/Users/nho/WebstormProjects/social_media_twitter/back-end,program=.,...,dryrun=true) success: progerr=
+I0625 19:04:17.747352   88757 source_eval.go:185] EvalSourceIterator ended with bail.
+I0625 19:04:17.747387   88757 deployment_executor.go:259] deploymentExecutor.Execute(...): incoming event (nil? true, Bail)
+I0625 19:04:17.747409   88757 step_executor.go:377] StepExecutor worker(-1): StepExecutor.waitForCompletion(): waiting for worker threads to exit
+I0625 19:04:17.747428   88757 step_executor.go:377] StepExecutor worker(-2): worker exiting due to cancellation
+I0625 19:04:17.747652   88757 step_executor.go:377] StepExecutor worker(-1): StepExecutor.waitForCompletion(): worker threads all exited
+I0625 19:04:17.747996   88757 deployment_executor.go:303] deploymentExecutor.Execute(...): step executor has completed
+I0625 19:04:17.748049   88757 deployment_executor.go:161] deploymentExecutor.Execute(...): exiting provider canceller
+I0625 19:04:17.756493   88757 ignore.go:44] Explicitly ignoring and discarding error: rpc error: code = Canceled desc = grpc: the client connection is closing
+I0625 19:04:17.757529   88757 host.go:422] Error closing 'nodejs' language plugin during shutdown; ignoring: 1 error occurred:
+	* operation not permitted
+
+I0625 19:04:17.757616   88757 update.go:195] *** Update(preview=true) complete ***
+I0625 19:04:18.330758   88757 sink.go:163] defaultSink::Warning([38;5;3mwarning: [0m[0mA new version of Pulumi is available. To upgrade from version '3.34.1' to '3.35.1', run 
+   $ brew upgrade pulumi
+or visit https://pulumi.com/docs/reference/install/ for manual instructions and release notes.[0m)
+[38;5;3mwarning: [0m[0mA new version of Pulumi is available. To upgrade from version '3.34.1' to '3.35.1', run 
+   $ brew upgrade pulumi
+or visit https://pulumi.com/docs/reference/install/ for manual instructions and release notes.[0m

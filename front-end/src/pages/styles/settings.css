@@ -1,0 +1,121 @@
+.settings-box{
+
+}
+
+#common-settings-box{
+    background: white !important;
+    border-radius: 10px !important;
+    border-color: #e2e8f0;
+    border-style: solid;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.MuiBox-root.css-qhyyqt{
+    width: 500px;
+}
+
+.JoyInput-root.Joy-disabled.JoyInput-fullWidth.JoyInput-variantOutlined.JoyInput-colorNeutral.JoyInput-sizeSm.Joy-disabled.css-wqpqe9-JoyInput-root{
+    border-color: #e2e8f0;
+    font-size: 10px;
+}
+
+.JoyInput-root.JoyInput-fullWidth.JoyInput-variantOutlined.JoyInput-colorNeutral.JoyInput-sizeSm.css-wqpqe9-JoyInput-root{
+    border-color: #e2e8f0;
+    font-size: 10px;
+}
+
+.JoyInput-input.Joy-disabled.css-sgruaa-JoyInput-input{
+    color: #121212 !important;
+}
+
+
+.common-settings-box{
+    font-weight: 600;
+    color: #121212;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.common-settings-box.header{
+    font-size: 12px;
+}
+
+.common-settings-box.footer{
+    font-size: 10px;
+    color: #495057;
+}
+
+.common-settings-box.sub-end-date{
+    font-size: 10px;
+    color: #81848F;
+}
+#common-settings-box-actions{
+    margin-left: 2px;
+}
+
+.close{
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.modal-title{
+    font-size: 14px;
+}
+
+#close-modal{
+    font-size: 10px;
+}
+
+#confirm-modal{
+    font-size: 10px;
+}
+
+.MuiFormControl-root.css-r47a1p-MuiFormControl-root{
+    margin: none;
+}
+.css-r47a1p-MuiFormControl-root{
+    margin: none !important;
+}
+#change-email{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#old-pswd-modal{
+    align-items: none;
+}
+
+#twitter-settings-btn{
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+#twitter-settings-btn-sub{
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-top: 8px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.queue-date-header{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.no-tweet-header{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.poll-schedule-time{
+    color: #495057;
+    font-size: 12px;
+}

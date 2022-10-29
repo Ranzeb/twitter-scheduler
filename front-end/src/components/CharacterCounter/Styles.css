@@ -1,0 +1,12 @@
+.ProgressRingBar {
+  transition: transform 0.2s ease-in-out;
+  will-change: transform;
+}
+
+.ProgressRingBar[data-ui="smallRing"] {
+  transform: scale(0.8);
+}
+
+.ProgressRingBar[data-ui="bigRing"] {
+  transform: scale(1);
+}

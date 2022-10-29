@@ -1,0 +1,23 @@
+.Submit {
+  padding: 0px 24px;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  color: white;
+  background-color: rgb(26, 145, 218);
+  flex-shrink: 0;
+}
+
+.Submit:disabled {
+  cursor: initial;
+  background-color: rgb(142, 208, 249);
+}
+
+.Submit:enabled:hover {
+  background-color: rgb(19, 122, 185);
+}

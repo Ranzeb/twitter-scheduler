@@ -1,0 +1,107 @@
+.PrivacyPicker {
+  position: relative;
+}
+
+.PrivacyPicker_Btn img {
+  height: 16px;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.PrivacyPicker_Btn {
+  padding: 6px 8px;
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  color: rgb(27, 149, 224);
+}
+
+.PrivacyPicker_Btn:hover {
+  background-color: rgba(27, 149, 224, 0.1);
+}
+
+.PrivacySelection {
+  max-width: 295px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  text-align: left;
+  box-sizing: border-box;
+  border: 1px solid rgba(27, 149, 224, 0.1);
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.PrivacySelection[data-visible="true"] {
+  height: auto;
+  width: 100%;
+  padding: 10px 0;
+  animation: fadeIn 0.35s ease-in forwards;
+}
+
+.PrivacySelection__Hint,
+.PrivacySelection__Header {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.PrivacySelection__Hint {
+  margin-top: 4px;
+}
+
+.PrivacySelection__Header {
+  font-weight: 700;
+}
+
+.PrivacySelection__Radios {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RadioWithLabel {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.RadioWithLabel input[type="radio"] {
+  display: none;
+}
+
+.RadioWithLabel input[type="radio"]:checked + label::after {
+  content: "✓";
+  position: absolute;
+  color: rgb(27, 149, 224);
+  border-radius: 50%;
+  left: auto;
+  right: 16px;
+}
+
+.RadioWithLabel__Label {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.RadioWithLabel__Label:hover {
+  background-color: rgba(247, 249, 250, 0.7);
+}
+
+.RadioWithLabel__Label img {
+  padding: 7px;
+  height: 25px;
+  border-radius: 50%;
+  width: auto;
+  background-color: rgb(27, 149, 224);
+  margin-right: 8px;
+}

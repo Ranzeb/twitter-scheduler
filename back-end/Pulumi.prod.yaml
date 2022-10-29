@@ -1,0 +1,4 @@
+config:
+  aws:profile: ng
+  aws:region: eu-west-1
+  pulumi:template: aws-javascript

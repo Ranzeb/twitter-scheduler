@@ -1,0 +1,95 @@
+#image-div{
+    margin-top: 10px;
+    position: inherit;
+    margin-right: 60%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.form-control{
+    border-radius: 10px !important;
+    width: inherit;
+}
+
+/*
+Tweetbox bg
+ */
+.MuiBox-root.css-60dwzi{
+    border-radius: 10px !important;
+}
+#tweet-bg{
+    background: white !important;
+    -webkit-box-shadow: 0 0 5px #333333;
+    box-shadow: 0 0 5px #333333;
+}
+#remove-textarea{
+    margin-left: 5px;
+}
+
+.container{
+    position: relative;
+    left: -40px;
+}
+
+.container img { display: block; }
+
+.container .MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+em-emoji-picker{
+    position: absolute;
+    z-index: 1;
+}
+
+.reactGiphySearchbox-componentWrapper{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 3px;
+}
+
+.char-counter{
+    display: contents;
+}
+
+#poll-textfields-container{
+    display: grid;
+}
+
+#poll-textfield{
+    margin-bottom: 10px;
+}
+
+#poll-textfields{
+    border: solid;
+    border-color: #ced4da;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.poll-label{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+#add-poll-btn{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.hour-min-div{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 1200px){
+   #tweet-bg{
+    margin-top: 30px;
+   }
+  }

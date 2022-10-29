@@ -1,0 +1,25 @@
+.Editor {
+  display: block;
+  font-size: 19px;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  min-height: 24px;
+  text-align: left;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.Editor__Highlight {
+  color: rgb(27, 149, 224);
+}
+
+.Editor__OverLimit {
+  background-color: #fd9bb0;
+}
+
+.public-DraftEditorPlaceholder-root {
+  z-index: -1;
+  position: absolute;
+}

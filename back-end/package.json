@@ -1,0 +1,21 @@
+{
+    "name": "social_media_twitter",
+    "main": "index.js",
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.131.0",
+        "@pulumi/aws": "^5.0.0",
+        "@pulumi/awsx": "^0.40.0",
+        "@pulumi/cloud": "^0.30.1",
+        "@pulumi/cloud-aws": "^0.30.1",
+        "@pulumi/pulumi": "^3.0.0",
+        "aws-sdk": "^2.1177.0",
+        "axios": "^0.27.2",
+        "axios-oauth-1.0a": "^0.3.5",
+        "oauth": "^0.9.15",
+        "request": "^2.88.2",
+        "stripe": "^9.16.0",
+        "twitter-api-v2": "^1.12.0",
+        "url": "^0.11.0"
+    },
+    "type": "module"
+}
